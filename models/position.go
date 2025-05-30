@@ -18,4 +18,7 @@ type Position struct {
 	Size                      float64 `json:"size"`
 	SizeCurrency              float64 `json:"size_currency"`
 	TotalProfitLoss           float64 `json:"total_profit_loss"`
+	Gamma                     float64 `json:"gamma"`
+	Vega                      float64 `json:"vega"`
+	Theta                     float64 `json:"theta"`
 }
